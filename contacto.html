@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tatiaxca Obregón</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #f6f1ee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://lh3.googleusercontent.com/p/AF1QipP4HoctKusAMyPUnkmtDS2TYhAFG7RN-962F6yo=s1360-w1360-h1020-rw'); 
+      background-size: cover;     
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-top: 70px;
+    }
+    .hero {
+      background-color: rgb(49, 82, 15);
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .section-title {
+      color: rgb(70, 49, 49);
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #4b2e2e;
+      color: #f6f1ee;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+    .navbar {
+      background-color: #f8f9fa;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    
+    .navbar-brand img {
+      height: 40px;
+    }
+    
+    .nav-link {
+      color: #333;
+      font-weight: 500;
+      margin: 0 10px;
+      position: relative;
+    }
+    
+    .nav-link:hover {
+      color: rgb(49, 82, 15);
+    }
+    
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: rgb(49, 82, 15);
+      bottom: 0;
+      left: 0;
+      transition: width 0.3s;
+    }
+    
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    
+    /* Menú hamburguesa para móviles */
+    .navbar-toggler {
+      border: none;
+      padding: 0.25rem 0.5rem;
+    }
+    
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+    @media (max-width: 992px) {
+      .card {
+        width: 100% !important;
+      }
+      
+      .navbar-collapse {
+        background-color: #f8f9fa;
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      
+      .nav-link {
+        margin: 5px 0;
+        padding: 8px 15px;
+      }
+      
+      .nav-link:hover::after {
+        width: 0;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        padding-top: 60px;
+      }
+      
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="descarga.jpg" alt="Tatiaxca Obregón">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto"> 
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="menu.html">Menú</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeria.html">Galería</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <h1>Contactos</h1>
+  </div>
+</header>
+
+
+    <div class="container text-center">
+        <div class="col-md-8 mx-auto">
+     <div class="card text-center" style="width: 60rem; margin-top: 40px;">
+        <p>Nuestras redes sociales:</p>
+<nav>
+     <a href="https://www.facebook.com/CafeTatiaxcaObregon/" class="mb-2 nav-link">Facebook</a>
+     <a href="https://www.instagram.com/cafetatiaxcaobregon/" class="mb-2 nav-link">Instagram</a>
+     <a href="https://www.threads.com/@cafetatiaxcaobregon" class="mb-2 nav-link">Threads</a>
+</nav>
+<br>
+<p>Número de telefono:</p>
+<p>644 246 3770</p>
+<br>
+<p>Dirección:</p>11111
+<p>Jesús García Corona 100, Ciudad Obregón, México</p>
+<br>
+<p>¡Novedad! - Estámos disponibles en Didi</p>
+    </div>
+    </div>
+    </div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text mb-0">&copy; 2025 Tatiaxca Obregón. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
